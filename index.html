@@ -1,13 +1,10 @@
 
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+ <html class="no-js">
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nouveta &mdash; A Free HTML5 Responsive Template by FREEHTML5.CO</title>
+	<title>Nouveta &mdash; </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
@@ -16,13 +13,13 @@
   	<!--
 	//////////////////////////////////////////////////////
 
-	FREE HTML5 TEMPLATE
-	DESIGNED & DEVELOPED by FREEHTML5.CO
 
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
+	DESIGNED & DEVELOPED by IanJravin
+
+	Website: 		http://nouveta.tech/
+	Email: 			info@nouveta.tech
+	Twitter: 		http://twitter.com/NouvetaLTD
+
 
 	//////////////////////////////////////////////////////
 	 -->
@@ -66,33 +63,65 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style>
+	.navbar {
+	  border: 1px solid #805500;
+	}
 
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+
+	.navbar-nav > li {
+	  line-height:30%;
+	  position: relative;
+	  font-size: 20px;
+	}
+
+	.logo,
+	.navbar-nav > li > .btn {
+	  margin: 0 15px;
+	}
+
+	@media (min-width: 767px) {
+	  .navbar-search-form {
+	    position: absolute;
+	    left: 0;
+	    right: 0;
+	    margin: auto;
+	    width: 100%;
+	    float: none;
+	    text-align: center;
+	    padding: 8px 0;
+	  }
+	}
+</style>
 	</head>
 	<body>
-	 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-		    <div class="container">
+		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+     <div class="container">
 
-		      <div class="navbar-header">
-		        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-		          <span class="icon icon-bar"></span>
-		          <span class="icon icon-bar"></span>
-		          <span class="icon icon-bar"></span>
-		        </button>
-		        <a href="#top" class="navbar-brand smoothScroll"><img src="images/logo.png">
-		        </a>
-		      </div>
-		        <div class="collapse navbar-collapse">
-		          <ul class="nav navbar-nav navbar-right">
-		            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
-		            <li><a href="#about" class="smoothScroll"><span>About Us</span></a></li>
-		            <li><a href="#gallery" class="smoothScroll"><span>Our Business</span></a></li>
-		            <li><a href="#contact" class="smoothScroll"><span>Solution</span></a></li>
-		            <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>
-		          </ul>
-		       </div>
+       <div class="navbar-header">
+         <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+           <span class="icon icon-bar"></span>
+           <span class="icon icon-bar"></span>
+           <span class="icon icon-bar"></span>
+         </button>
+         <img src="images/logo.png" alt="logo">
+         </a>
+       </div>
+         <div class="collapse navbar-collapse">
+           <ul class="nav navbar-nav navbar-right">
+             <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
+             <li><a href="#about" class="smoothScroll"><span>About Us</span></a></li>
+             <li><a href="#gallery" class="smoothScroll"><span>Our Business</span></a></li>
+             <li><a href="#contact" class="smoothScroll"><span>Solution</span></a></li>
+             <li><a href="#contact" class="smoothScroll"><span>Contact</span></a></li>
+           </ul>
+        </div>
 
-		    </div>
-		  </div>
+     </div>
+   </div>
 	 <!-- <div id="fh5co-offcanvass">
 		<ul>
 			<li class="active"><a href="#" data-nav-section="home">Home</a></li>
@@ -137,7 +166,7 @@
 							<div class="col-md-6 fh5co-text">
 								<h2 class="to-animate intro-animate-1">Creating Lasting Solutions Through Experience and Engagement.</h2>
 								<p class="to-animate intro-animate-2">Frictionless, Unique and innovative Customer Experience.</p>
-								<p class="to-animate intro-animate-3"><a href="#" class="btn btn-primary btn-md"></i> Request a Demo</a></p>
+								<p class="to-animate intro-animate-3"><a href="#contact" class="btn btn-primary btn-md"></i> Request a Demo</a></p>
 							</div>
 							<div class="col-md-6 text-right fh5co-intro-img to-animate intro-animate-4">
 								<img src="images/iphone_6_3.png" alt="Outline Free HTML5 Responsive Bootstrap Template" >
@@ -251,82 +280,6 @@
 			    </div>
 
 
-			    <div id="fh5co-testimony" data-section="testimonies">
-				    <div class="container">
-				    	<div class="row animate-box">
-
-							<div class="owl-carousel">
-
-								<div class="item">
-									<div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-						    			<figure class="fh5co-vcard"><img src="images/user.jpg" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
-						    		</div>
-						    		<div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
-						    			<blockquote>
-						    				<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						    			</blockquote>
-						    			<p class="fh5co-author fh5co-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
-						    		</div>
-						    	</div>
-
-						    	<div class="item">
-									<div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-						    			<figure class="fh5co-vcard"><img src="images/user_2.jpg" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
-						    		</div>
-						    		<div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
-						    			<blockquote>
-						    				<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						    			</blockquote>
-						    			<p class="fh5co-author fh5co-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
-						    		</div>
-						    	</div>
-
-						    	<div class="item">
-									<div class="col-md-3 col-sm-3 col-xs-4 col-xxs-12">
-						    			<figure class="fh5co-vcard"><img src="images/user_3.jpg" alt="Free HTML5 Template by FREEHTML5.co" class="img-responsive"></figure>
-						    		</div>
-						    		<div class="col-md-9 col-sm-9 col-xs-8 col-xxs-12">
-						    			<blockquote>
-						    				<p>&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;</p>
-						    			</blockquote>
-						    			<p class="fh5co-author fh5co-uppercase-sm"><span>Gustav Barrow</span>, XYZ Inc.</p>
-						    		</div>
-						    	</div>
-
-
-						    </div>
-
-				    	</div>
-				    </div>
-			    </div>
-
-
-				<div id="fh5co-counter" class="fh5co-bg-section" style="background-image: url(images/bg_1.jpg); background-attachment: fixed;">
-					<div class="fh5co-overlay"></div>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12">
-								<div class="fh5co-hero-wrap">
-									<div class="fh5co-hero-intro text-center to-animate counter-animate">
-										<div class="col-md-4 text-center">
-											<span class="fh5co-counter js-counter" data-from="0" data-to="28" data-speed="5000" data-refresh-interval="50"></span>
-											<span class="fh5co-counter-label">Customers</span>
-
-										</div>
-										<div class="col-md-4 text-center">
-											<span class="fh5co-counter js-counter" data-from="0" data-to="57" data-speed="5000" data-refresh-interval="50"></span>
-											<span class="fh5co-counter-label">Completed Apps</span>
-										</div>
-										<div class="col-md-4 text-center">
-											<span class="fh5co-counter js-counter" data-from="0" data-to="34023" data-speed="5000" data-refresh-interval="50"></span>
-											<span class="fh5co-counter-label">Downloads</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 
 
 				<div id="fh5co-products" data-section="products">
@@ -362,7 +315,7 @@
 
 				           <div class="col-sm-4 port-item margin-bottom">
 				             <div class="item-img-wrap">
-				               <img src="images/tick.png" class="img-responsive" alt="workimg">
+				               <img src="images/yes.png" class="img-responsive" alt="workimg">
 				               <div class="item-img-overlay">
 				                 <a href="images/tick.png" class="show-image">
 				                   <span></span>
@@ -370,14 +323,14 @@
 				               </div>
 				             </div>
 				             <div class="work-desc">
-				               <h3><a href="#">TicketPay</a></h3>
-				               <span>TicketPay</span>
+				               <h3><a href="#">Pay Me</a></h3>
+				               <span>Pay Me</span>
 				             </div>
 				           </div> <!-- /portfolio-item -->
 
 				           <div class="col-sm-4 port-item margin-bottom">
 				             <div class="item-img-wrap">
-				               <img src="images/nouv.png" class="img-responsive" alt="workimg">
+				               <img src="images/no.png" class="img-responsive" alt="workimg">
 				               <div class="item-img-overlay">
 				                 <a href="images/nouv.png" class="show-image">
 				                   <span></span>
@@ -391,11 +344,11 @@
 				           </div> <!-- /portfolio-item -->
 				         </div> <!-- /row -->
 
-				         <div class="row">
+				         <!-- <div class="row">
 				           <div class="col-md-12 text-center">
 				             <a href="#" class="btn btn-custom theme_background_color">Load More</a>
 				           </div>
-				         </div> <!-- /row -->
+				         </div>  -->
 
 				       </div> <!-- /container -->
 				     </section>
@@ -490,7 +443,7 @@
 									<div class="fh5co-hero-intro text-center">
 										<div class="row">
 											<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
-												<h2 class="fh5co-lead to-animate">Try Sort-ify App today!</h2>
+												<h2 class="fh5co-lead to-animate">Sort-ify App Coming Soon!</h2>
 												<p class="fh5co-sub to-animate">Our App that enables users to pay bills, buy tickets and acts as a wallet. Click here to download or go to playstore and download.</p>
 												<div class="to-animate"><a href="#" class="btn btn-primary">Download</a></div>
 											</div>
@@ -543,23 +496,23 @@
        <div class="row text-center">
           <div class="col-md-12">
               <h3 class="title">Our <span class="themecolor">Team</span></h3>
-            <p class="a-slog">Lorem ipsum dolor sit amet ne onsectetuer adipiscing elit. Aenean commodo ligula eget dolor in tashin ty</p>
+
           </div>
         </div>
           <div class="row text-center">
 						<div class="container">
 		                    <div class="row">
-		                       
+
 
 		                        <div class="col-md-4 col-sm-4">
 		                            <div class="team-member">
 		                                <div class="team-img">
-		                                    <img src="images/ianj.jpg" alt="team member" class="img-responsive">
+		                                    <img src="images/mpoxie.jpg" alt="team member" class="img-responsive">
 		                                </div>
 		                                <div class="team-hover">
 		                                    <div class="desk">
 		                                        <h4>Hi There !</h4>
-		                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+		                                        <p>I am a software engineer and developer.</p>
 		                                    </div>
 		                                    <div class="s-link">
 		                                        <a href="#"><i class="fa fa-facebook"></i></a>
@@ -569,19 +522,19 @@
 		                                </div>
 		                            </div>
 		                            <div class="team-title">
-		                                <h5>Martin Smith</h5>
-		                                <span>founder &amp; ceo</span>
+		                                <h5>Pauline Mbabu</h5>
+		                                <span>Software Developer</span>
 		                            </div>
 		                        </div>
 		                        <div class="col-md-4 col-sm-4">
 		                            <div class="team-member">
 		                                <div class="team-img">
-		                                    <img src="images/ianj.jpg" alt="team member" class="img-responsive">
+		                                    <img src="images/cate.jpg" alt="team member" class="img-responsive">
 		                                </div>
 		                                <div class="team-hover">
 		                                    <div class="desk">
 		                                        <h4>Hello World</h4>
-		                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+		                                        <p>Hi,Am a Software Engineer.</p>
 		                                    </div>
 		                                    <div class="s-link">
 		                                        <a href="#"><i class="fa fa-facebook"></i></a>
@@ -591,19 +544,19 @@
 		                                </div>
 		                            </div>
 		                            <div class="team-title">
-		                                <h5>Franklin Harbet</h5>
-		                                <span>HR Manager</span>
+		                                <h5>Cate Njeri</h5>
+		                                <span>Software Developer</span>
 		                            </div>
 		                        </div>
 		                        <div class="col-md-4 col-sm-4">
 		                            <div class="team-member">
 		                                <div class="team-img">
-		                                    <img src="images/ianj.jpg" alt="team member" class="img-responsive">
+		                                    <img src="images/mpoxie.jpg" alt="team member" class="img-responsive">
 		                                </div>
 		                                <div class="team-hover">
 		                                    <div class="desk">
-		                                        <h4>I love to design</h4>
-		                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+		                                        <h4>Hi There</h4>
+		                                        <p>I am a Software Engineer.</p>
 		                                    </div>
 		                                    <div class="s-link">
 		                                        <a href="#"><i class="fa fa-facebook"></i></a>
@@ -613,8 +566,8 @@
 		                                </div>
 		                            </div>
 		                            <div class="team-title">
-		                                <h5>Linda Anderson</h5>
-		                                <span>Marketing Manager</span>
+		                                <h5>Alex</h5>
+		                                <span>Software Developer</span>
 		                            </div>
 		                        </div>
 
@@ -622,7 +575,7 @@
 
 		                </div>
 
-        </div>
+
 
 				<div class="container">
                     <div class="row">
@@ -631,12 +584,12 @@
                         <div class="col-md-4 col-sm-4">
                             <div class="team-member">
                                 <div class="team-img">
-                                    <img src="images/ianj.jpg" alt="team member" class="img-responsive">
+                                    <img src="images/kahu.jpg" alt="team member" class="img-responsive">
                                 </div>
                                 <div class="team-hover">
                                     <div class="desk">
                                         <h4>Hi There !</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+                                        <p>I love to introduce myself as a software Engineer.</p>
                                     </div>
                                     <div class="s-link">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -646,14 +599,14 @@
                                 </div>
                             </div>
                             <div class="team-title">
-                                <h5>Martin Smith</h5>
-                                <span>founder &amp; ceo</span>
+                                <h5>Peter Kahurani</h5>
+                                <span>Software Developer</span>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
                             <div class="team-member">
                                 <div class="team-img">
-                                    <img src="images/ianj.jpg" alt="team member" class="img-responsive">
+                                    <img src="images/rita.jpg" alt="team member" class="img-responsive">
                                 </div>
                                 <div class="team-hover">
                                     <div class="desk">
@@ -668,8 +621,8 @@
                                 </div>
                             </div>
                             <div class="team-title">
-                                <h5>Franklin Harbet</h5>
-                                <span>HR Manager</span>
+                                <h5>Rita Woki</h5>
+                                <span>Lead Web Designer</span>
                             </div>
                         </div>
                         <div class="col-md-4 col-sm-4">
@@ -680,7 +633,7 @@
                                 <div class="team-hover">
                                     <div class="desk">
                                         <h4>I love to design</h4>
-                                        <p>I love to introduce myself as a hardcore Web Designer.</p>
+                                        <p>I love to introduce myself as a hardcore Web and Graphic Designer.</p>
                                     </div>
                                     <div class="s-link">
                                         <a href="#"><i class="fa fa-facebook"></i></a>
@@ -690,8 +643,8 @@
                                 </div>
                             </div>
                             <div class="team-title">
-                                <h5>Linda Anderson</h5>
-                                <span>Marketing Manager</span>
+                                <h5>Ian Jravin</h5>
+                                <span>Lead Designer and Developer</span>
                             </div>
                         </div>
 
@@ -702,10 +655,10 @@
 
 
         <div class="row margin-top">
-          <div class="col-md-12 text-center">
+          <!-- <div class="col-md-12 text-center">
             <a href="#" class="btn btn-custom theme_background_color ">We are Hiring</a>
-          </div> <!-- /col -->
-        </div> <!-- /row -->
+          </div>  -->
+        </div>
 
       </div>
   </section>
@@ -719,7 +672,7 @@
 						<div class="row">
 							<div class="col-md-8 col-md-offset-2 fh5co-section-heading text-center">
 								<h2 class="fh5co-lead animate-single faqs-animate-1">Frequently Ask Questions</h2>
-								<p class="fh5co-sub animate-single faqs-animate-2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+
 							</div>
 						</div>
 					</div>
@@ -728,59 +681,55 @@
 					<div class="container">
 						<div class="faq-accordion active to-animate">
 							<span class="faq-accordion-icon-toggle active"><i class="icon-arrow-down"></i></span>
-							<h3>What is Outline?</h3>
+							<h3>What is Nouveta?</h3>
 							<div class="faq-body" style="display: block;">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								<p>Nouveta is a service company that develops payment solutions across all channels i.e, SMS, App, USSD, social media and E-commerce..</p>
 							</div>
 						</div>
 						<div class="faq-accordion to-animate">
 							<span class="faq-accordion-icon-toggle"><i class="icon-arrow-down"></i></span>
-							<h3>Is Outline Free?</h3>
+							<h3>What does Nouveta do?</h3>
 							<div class="faq-body">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								<p>We operate a scalable, omni-channel payments platform that processes payments, manages devices and connects to various 3rd party systems and value added apps.</p>
 							</div>
 						</div>
 						<div class="faq-accordion to-animate">
 							<span class="faq-accordion-icon-toggle"><i class="icon-arrow-down"></i></span>
-							<h3>How do I use Outline Features?</h3>
+							<h3>How secure is your gateway?</h3>
 							<div class="faq-body">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								<p>We take pride in ensuring our system is secure and stringent measures have been taken for this cause to enable our clients to transact using our gateway without worry..</p>
 							</div>
 						</div>
 						<div class="faq-accordion to-animate">
 							<span class="faq-accordion-icon-toggle"><i class="icon-arrow-down"></i></span>
-							<h3>Which version of iOS do your apps support?</h3>
+							<h3>Do you offer support?</h3>
 							<div class="faq-body">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								<p>Yes, at Nouveta our service and support engineers support our clients around the globe in installation and maintenance and incase of anything we are available on phone and e-mail.</p>
 							</div>
 						</div>
 						<div class="faq-accordion to-animate">
 							<span class="faq-accordion-icon-toggle"><i class="icon-arrow-down"></i></span>
-							<h3>What languages are available?</h3>
+							<h3>Which language do you use for development?</h3>
 							<div class="faq-body">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								<p>We use any language thats appropriate for a given task and what the client requests or is currently using on their existing system.</p>
 							</div>
 						</div>
 						<div class="faq-accordion to-animate">
 							<span class="faq-accordion-icon-toggle"><i class="icon-arrow-down"></i></span>
-							<h3>I have technical problem, who do I email?</h3>
+							<h3>Can your gateway be intergrated in an existing system?</h3>
 							<div class="faq-body">
-								<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+								<p> Our gateway can be intergrated in any existing system or linked to an existing system thus cutting costs.</p>
 							</div>
 						</div>
 					</div>
 				</div>
-				<!DOCTYPE>
+
 				<htm lang="en">
 
 				  <head>
-				    <meta charset="utf-8">
-				    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-				    <meta name="viewport" content="width=device-width, initial-scale=1">
-				    <meta name="keywords" content="">
-				    <meta name="description" content="">
 
-				    <title>Nouv</title>
+
+
 
 				    <link rel="stylesheet" href="css/bootstrap.min.css">
 				    <link rel="stylesheet" href="css/animate.min.css">
@@ -927,6 +876,7 @@
 				              </div>
 				              <!-- <input type="submit" class="btn pull-right" value="Send Message"> -->
 				              <button type="button" name="button" class="message">Send Message</button>
+
 				              <!-- Ajax Message -->
 				              <div class="ajax-message col-md-12 no-gap"></div>
 
@@ -950,34 +900,29 @@
 				          document.getElementById("overlay").style.display = "none";
 				        }
 				      </script>
-				<div id="fh5co-subscribe">
+							<hr>
+				<br><br>
 					<div class="container">
+
 						<div class="row animate-box">
+
 							<form action="#" method="post">
 								<div class="col-md-3 col-sm-3">
-									<!-- <div class="form-group">
-										<input type="text" class="form-control" placeholder="First Name">
-									</div> -->
+									<img src="images/ibm1.png" alt="">
 								</div>
 								<div class="col-md-3 col-sm-3">
-									<!-- <div class="form-group">
-										<input type="text" class="form-control" placeholder="Last Name">
-									</div> -->
+									<img src="images/info1.png" alt="">
 								</div>
 								<div class="col-md-3 col-sm-3">
-									<!-- <div class="form-group">
-										<input type="email" class="form-control" placeholder="Email">
-									</div> -->
+									<img src="images/af1.png" alt="">
 								</div>
 								<div class="col-md-3 col-sm-3">
-									<!-- <div class="form-group">
-										<input type="submit" class="btn btn-primary" value="Send">
-									</div> -->
+									<img src="images/saf1.png" alt="">
 								</div>
 							</form>
 						</div>
 					</div>
-				</div>
+
 
 
 			</div>
@@ -991,31 +936,27 @@
 						<div class="col-md-3 col-sm-4 col-md-push-3">
 							<h3 class="fh5co-lead">About</h3>
 							<ul>
-								<li><a href="#">Tour</a></li>
-								<li><a href="#">Company</a></li>
-								<li><a href="#">Jobs</a></li>
+
+								<li><a href="#about">Company</a></li>
+
 								<li><a href="#">Blog</a></li>
-								<li><a href="#">New Features</a></li>
+
 								<li><a href="#">Contact Us</a></li>
 							</ul>
 						</div>
 						<div class="col-md-3 col-sm-4 col-md-push-3">
 							<h3 class="fh5co-lead">Support</h3>
 							<ul>
+								<li><a href="#contact">Feedback</a></li>
+								<li><a href="#">Frequently Ask Questions</a></li>
 								<li><a href="#">Help Center</a></li>
-								<li><a href="#">Terms of Service</a></li>
-								<li><a href="#">Security</a></li>
-								<li><a href="#">Privacy Policy</a></li>
-								<li><a href="#">Careers</a></li>
-								<li><a href="#">More Apps</a></li>
+
+
 							</ul>
 						</div>
 						<div class="col-md-3 col-sm-4 col-md-push-3">
 							<h3 class="fh5co-lead">More Links</h3>
 							<ul>
-								<li><a href="#">Feedback</a></li>
-								<li><a href="#">Frequently Ask Questions</a></li>
-								<li><a href="#">Terms of Service</a></li>
 								<li><a href="#">Privacy Policy</a></li>
 								<li><a href="#">Careers</a></li>
 								<li><a href="#">More Apps</a></li>
@@ -1026,11 +967,9 @@
 							<div class="fh5co-footer-logo"><a href="index.html">NOUVETA</a></div>
 							<p class="fh5co-copyright"><small>&copy;  2017. All Rights Reserved. <br>
 							<p class="fh5co-social-icons">
-								<a href="#"><i class="icon-twitter"></i></a>
+								<a href="https://twitter.com/NouvetaLTD"><i class="icon-twitter"></i></a>
 								<a href="#"><i class="icon-facebook"></i></a>
-								<a href="#"><i class="icon-instagram"></i></a>
-								<a href="#"><i class="icon-dribbble"></i></a>
-								<a href="#"><i class="icon-youtube"></i></a>
+							
 							</p>
 						</div>
 
